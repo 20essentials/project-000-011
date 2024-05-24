@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>GOLF RESORT ROSEBUD</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <aside class="bandera">
+    SPECIAL OFFERS
+  </aside>
+  <header class="myheader">
+    <aside class="languages">
+      <a href="index.html"><img src="assets/italiano.gif"></a>
+      <a href="gr.html"><img src="assets/aleman.gif"></a>
+      <a href="en.html"><img src="assets/ingles.gif"></a>
+      <a href="fr.html"><img src="assets/frances.gif"></a>
+    </aside>
+    <img src="assets/rosa.png" alt="theLogo">
+    <div class="equis" onclick="abrirModal(this)">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+    </div>
+  </header>
+  <section class="container-nav-book">
+    <nav class="myNav">
+      <a href="#">Rooms</a>
+      <a href="#">Apartments</a>
+      <a href="#">Pool</a>
+      <a href="#">Beach</a>
+      <a href="#">Golf Club</a>
+      <a href="#">Active Holiday</a>
+      <a href="#">News</a>
+      <a href="#">Info</a>
+      <a href="#"></a>
+    </nav>
+    <aside class="book">
+      <div class="left">
+        <footer class="left-pill">
+          <i class="fas fa-phone xl"></i>+39 960 960 960
+        </footer>
+      </div>
+      <form class="right">
+        <article class="right-item">
+          <label for="arrive">Arrival</label>
+          <input required type="date" id="arrive" placeholder="Arrival">
+        </article>
+        <article class="right-item">
+          <label for="leave">Departure</label>
+          <input required type="date" id="leave" placeholder="Departure">
+        </article>
+        <article class="right-item">
+          <label for="adult">Adults</label>
+          <input required type="number" id="adult" min="1" max="100" value="1" placeholder="Adults">
+        </article>
+        <article class="right-item">
+          <label for="children">Children</label>
+          <input required type="number" id="children" min="1" max="100" value="1" placeholder="Children">
+        </article>
+        <article class="right-item">
+          <input required type="submit" value="Book" id="reserve">
+        </article>
+      </form>
+    </aside>
+  </section>
+  <article class="container-grid">
+    <section class="container-grid-left">
+      <item class="item-001 unItem"></item>
+    </section>
+    <section class="container-grid-right">
+      <item class="item-002 unItem"></item>
+      <item class="item-003 unItem"></item>
+      <item class="item-004 unItem"></item>
+      <item class="item-005 unItem"></item>
+    </section>
+  </article>
+  <div class="container-bike container-50vh">
+    <h2>Would you like to explore one of these routes but don't have your bike with you?</h2>
+    <p>Don't panic! You can discover this wonderful area by bike, thanks to the included bike rental service and free parking!</p>
+  </div>
+  <div class="container-parallax-bike container-50vh img50vh">
+  </div>
+  <aside class="container-buy container-50vh">
+    <h2><img src="assets/img9.png" alt="buy">Buy a house in the Golf Resort</h2>
+    <p>BUY YOUR APARTMENT IN AN EXCLUSIVE SETTING</p>
+  </aside>
+  <section class="container-50vh container-buy-parallax img50vh"></section>
+  <div class="container-50vh container-emails">
+    <div class="ctn-email-left">
+      <h2>RECEIVE NEWS & OFFERS</h2>
+      <p>Stay updated on the latest news and offers by subscribing to our newsletter.</p>
+    </div>
+    <form class="ctn-email-right">
+      <input type="email" placeholder="Email Address" required>
+      <input type="submit" value="Subscribe">
+    </form>
+  </div>
+  <div class="container-50vh container-emails container-emails2">
+    <div class="ctn-email-left">
+      <h2>GOLF RESORT ROSEBUD</h2>
+      <p>Strada per i Piani, 12200 Genoa - Liguria - IT</p>
+      <p>Tel. +39 960 960 960 - Fax +39 0184 960 960 - reservation@rosebudgolf.it</p>
+    </div>
+    <form class="ctn-email-right">
+      <p>VAT 999666333</p>
+      <p>CITR Code: 999-ALB-9999</p>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
